@@ -1,0 +1,32 @@
+@media (min-height: 560px) {
+    .comptetaille {
+        min-height: 570px;
+    }
+}
+@media (min-height: 600px) {
+    .comptetaille {
+        min-height: 670px;
+    }
+}
+@media (min-height: 700px) {
+    .comptetaille {
+        min-height: 740px;
+    }
+}
+@media (min-height: 800px) {
+     .comptetaille {
+        min-height: 815px;
+    }
+
+} 
+
+@media (min-height: 1000px) {
+    .comptetaille {
+       min-height: 1025px;
+   }
+
+} 
+
+.comptetaille {
+    background-color:rgb(58, 66, 66);
+}

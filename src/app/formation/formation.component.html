@@ -1,0 +1,33 @@
+
+<app-presentation></app-presentation>
+
+<div class="jumbotron">
+        <h1 class="display-4">Formation</h1>
+        <hr class="my-4">          
+</div>
+
+<ng-container>
+        <div class="cardList">
+                  <div class="card bg-dark" *ngFor="let item of collection">
+      
+                          <div class="card-body">
+                              <div class="card-entete">
+                                  <img src={{item.image}} class=responsive class="logo">
+                              <ul>
+                                  <p class="titreemployeur" style="white-space: pre-line;" >{{item.titre}}</p>
+                                  <p class="titreemployeur">{{item.date}}</p>
+                              </ul>
+                              </div>
+                          <div class="card-footer">  
+                              <p class="contenu" style="white-space: pre-line;">{{item.description}}</p>
+                          </div>
+                          </div>
+                  </div>
+      </div>
+</ng-container>
+
+<div  class="enbas" style="background-color:rgb(58, 66, 66);">
+        <h6 class="texte" >Administrateur et développeur du site: Cyril Pirez </h6>
+        <h6 class="texte">Cyril Pirez - Tout droit réservés©</h6>
+</div>
+

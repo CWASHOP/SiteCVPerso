@@ -1,0 +1,165 @@
+<app-presentation></app-presentation>
+
+<div class="jumbotron">
+    
+        <h1 class="display-5">Catalyse et Chimie du Végétale</h1>
+        
+        <hr class="my-4">          
+</div>
+   
+   
+
+        <ng-container >
+
+                <div class="cadre">
+
+
+                <div class="carte" *ngFor="let item of preparation">
+                    <input type="checkbox" id="carte1" class="more" aria-hidden="true">
+                    <div class="content">
+                        <div class="front" style="background-image: url('assets/image/poudre.jpg')">
+                            <div class="inner">
+                                <h2>{{item.competences}}</h2>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                 
+                                <label for="carte1" class="button" aria-hidden="true">
+                                                {{item.bouton}}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="back">
+                                <div class="backimage">
+                                
+                                        <div class="backimage" style="background-image: url('assets/image/poudre.jpg')">
+
+                                    
+                                <div class="inner">     
+                                                <label for="carte1" class="button return" aria-hidden="true">
+                                                                <i  class="fa fa-arrow-left"></i>
+                                                </label>
+                                <div class="procede">
+                                               
+                                    <p>
+                                    	{{item.description1}}
+                                    </p>
+
+                                    <p>
+                                        {{item.description2}}
+                                    </p>
+
+
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                         </div>
+                        </div>
+                 </div>
+
+
+                <div class="carte" *ngFor="let item of technique">
+                    <input type="checkbox" id="carte2" class="more" aria-hidden="true">
+                    <div class="content">
+                                <div class="front" style="background-image: url('assets/image/xps.jpg')">
+                            <div class="inner">
+                                <h2>{{item.competences}}</h2>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                
+                                
+                                <label for="carte2" class="button" aria-hidden="true">
+                                        {{item.bouton}}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="back">
+
+                                    <div class="backimage" style="background-image: url('assets/image/xps.jpg')">
+
+                                              
+                                        <div class="inner">     
+                                                        <label for="carte2" class="button return" aria-hidden="true">
+                                                                        <i class="fa fa-arrow-left"></i>
+                                                        </label>
+                                        <div class="carac">
+                                                       
+                                            <p>
+                                                    {{item.description1}}
+                                            </p>
+                                        </div>
+                                           
+                                       
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+               
+
+
+                <div class="carte" *ngFor="let item of process">
+                        <input type="checkbox" id="carte3" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/image/process.jpg')">
+                                <div class="inner">
+                                    <h2>Procédés Catalytiques</h2>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                     
+                                    <label for="carte3" class="button" aria-hidden="true">
+                                            {{item.bouton}}
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="back">
+                                    <div class="backimage" style="background-image: url('assets/image/process.jpg')">
+                                        
+                                <div class="inner">     
+                                                    <label for="carte3" class="button return" aria-hidden="true">
+                                                                    <i  class="fa fa-arrow-left"></i>
+                                                    </label>
+                                    <div class="procede">
+                                                   
+                                        <p>
+                                                {{item.description1}}
+                                        </p>
+    
+                                        <p>
+                                                {{item.description2}}
+                                        </p>
+    
+    
+                                    </div>
+                                        
+                                </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                     </div>
+              
+</ng-container>
+
+<div  class="enbas" style="background-color:rgb(58, 66, 66);">
+        <h6 class="texte" >Administrateur et développeur du site: Cyril Pirez </h6>
+        <h6 class="texte">Cyril Pirez - Tout droit réservés©</h6>
+</div>
+
+
+

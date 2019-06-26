@@ -1,0 +1,83 @@
+.texte {
+    color: rgb(255, 253, 253);
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.texte1 {
+    color: rgb(255, 253, 253);
+    position: absolute;
+    bottom: 0px;
+}
+
+@media (min-height: 560px) {
+
+    .container-fluid {
+        height:350px;
+    }
+}
+
+@media (min-height: 640px) {
+    
+    .container-fluid {
+        height:400px;
+    }
+}
+
+@media (min-height: 640px) {
+
+    
+    .container-fluid {
+        height:420px;
+    }
+}
+
+@media (min-height: 730px) {
+
+
+    
+    .container-fluid {
+        height:460px;
+    }
+}
+
+@media (min-height: 800px) {
+
+
+    
+    .container-fluid {
+        height:560px;
+    }
+}
+
+
+@media (min-height: 1100px) {
+
+
+    
+    .container-fluid {
+        height:600px;
+    }
+}
+
+@media (min-height: 1300px) {
+
+    
+    .container-fluid {
+        height:900px;
+    }
+}
+
+@media (min-height: 1900px) {
+
+
+    
+    .container-fluid {
+        height:1250px;
+    }
+}
+
+
+
+

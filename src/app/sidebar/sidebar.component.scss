@@ -1,0 +1,52 @@
+.icone {
+ 
+  margin:10px;
+  font-size: 40px;
+}
+
+.rg {
+  margin-left:30px;
+  font-size:32px;
+}
+
+.photo {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    border-radius: 40px;
+    border: 2px solid;
+    border-color:rgb(255, 255, 255);
+    margin:10px;
+    margin-left: 60px;
+}
+
+
+mat-sidenav {
+  width: 200px;
+  background-color: rgb(82, 82, 82);
+  color: rgb(255, 255, 255);
+}
+
+
+.entete{
+  background-color: rgb(58, 66, 66);
+  color: rgb(255, 255, 255);
+}
+
+
+a:hover,
+a:active {
+  color: rgb(255, 255, 255);
+}
+
+.titre {
+  font-size: 16px;
+}
+
+.mat-menu-item {
+  color:  rgb(58, 66, 66) !important;
+}
+
+.mat-drawer-container{ overflow: visible; }
+
+.mat-drawer-content{ overflow: visible; }

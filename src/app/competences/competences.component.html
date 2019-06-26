@@ -1,0 +1,85 @@
+<!--
+
+<app-presentation></app-presentation>
+
+<div class="competaille">
+<div class="jumbotron">
+
+         <h1 class="display-4">Compétences
+
+        <a (click)="showHideButtonsResume()" data-toggle="collapse" href="#savoir" role="button" aria-expanded="false" aria-controls="savoir">
+                        <span class="sort" class="fa fa-sort-down"></span></a>
+        </h1>
+       
+
+        <p class="lead" *ngIf="this.chooseResumeClicked === true" >
+Les compétences acquises au cours de ma vie profesionnelle sont dans un premier temps scientifique. 
+Chimiste de formation, j'ai participé à la recherche scientifique 
+dans différentes thématiques émergentes tel que la production de bioénergies et la production de biomolécules, à partir de la biomasse.
+J'ai ainsi acquis des compétences diverses en synthèse de catayseurs chimiques, en caractérisation de ces dits catalyseurs, 
+ainsi qu'en procédé catalytique. Mon parcours professionnel m'amène aujourd'hui à allier mes compétences scientifiques au 
+développemnt web dont les besoins sont nombreux aujourd'hui en milieu industriel.
+        </p>
+
+        <hr class="my-4">    
+
+</div>
+
+<div  class="boutoncollapse">
+
+                <a (click)="showHideButtonsSavoir()" data-toggle="collapse" href="#savoir" role="button" aria-expanded="false" aria-controls="savoir">
+                <button  class="boutoncompetence"><span class="textbouton"> Savoir-Etre / Savoir-Faire </span></button>
+                </a>
+
+                <a (click)="showHideButtonsCompetencechimie()" data-toggle="collapse" href="#competencechimie" role="button" aria-expanded="false" aria-controls="competencechimie">
+                                <button  class="boutoncompetence"><span class="textbouton"> Catalyse et Chimie du Végétale </span></button>
+                </a>
+
+                <a (click)="showHideButtonsCompetenceweb()" data-toggle="collapse" href="#competenceweb" role="button" aria-expanded="false" aria-controls="competenceweb">
+                                <button  class="boutoncompetence"><span class="textbouton"> Développement Web </span></button>
+                </a>
+
+                <a (click)="showHideButtonsLangues()" data-toggle="collapse" href="#langues" role="button" aria-expanded="false" aria-controls="langues">
+                                <button  class="boutoncompetence"><span class="textbouton"> Langues </span></button>
+                </a>
+
+        <a (click)="showHideButtonsLangues()" data-toggle="collapse" href="#savoir" role="button" aria-expanded="false" aria-controls="savoir">
+                <img src="assets/image/savoir.jpg" class="imagecompetence"/></a>
+ 
+    <a  (click)="showHideButtonsCompetencechimie()" data-toggle="collapse" href="#competencechimie" role="button" aria-expanded="false" aria-controls="competencechimie">
+      <img src="assets/image/photochimie.jpg" class="imagecompetence"/></a>
+
+      <a  (click)="showHideButtonsCompetenceweb()" data-toggle="collapse" href="#competenceweb" role="button" aria-expanded="false" aria-controls="competenceweb">
+          <img src="assets/image/competenceweb.jpg" class="imagecompetence"/></a>
+
+    <a   (click)="showHideButtonsLangues()" data-toggle="collapse" href="#competenceweb" role="button" aria-expanded="false" aria-controls="competenceweb">
+              <img src="assets/image/langue.jpg" class="imagecompetence"/></a>
+
+<div class="collapse" id="competencechimie" *ngIf="this.chooseCompchiClicked === true" >
+<app-competencechimie></app-competencechimie>
+</div>
+
+<div class="collapse" id="competenceweb" *ngIf="this.chooseCompWebClicked === true" >
+<app-competenceweb></app-competenceweb>
+</div>
+
+<div class="collapse" id="langues" *ngIf="this.chooseLanguesClicked === true" >
+    <app-langue></app-langue>
+</div>
+
+<div class="collapse" id="savoir" *ngIf="this.chooseSavoirClicked === true" >
+        <app-savoir></app-savoir>
+</div>
+
+</div>
+
+</div> 
+
+
+<div  class="enbas" style="background-color:rgb(58, 66, 66);">
+                <h6 class="texte" >Administrateur et développeur du site: Cyril Pirez </h6>
+                <h6 class="texte">Cyril Pirez - Tout droit réservés©</h6>
+</div>
+
+-->
+

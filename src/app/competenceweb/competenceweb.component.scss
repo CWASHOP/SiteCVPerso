@@ -1,0 +1,42 @@
+.cardList {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.card {
+   
+    color: rgb(255, 255, 255);
+    margin:5px;
+    width:310px;
+}
+
+.image{
+    height: 200px;
+    width: 300px;
+}
+
+.card-footer {
+    border-color: rgb(36, 221, 228);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.contenu {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+}
+
+.texte {
+    color: rgb(255, 253, 253);
+    text-align: center;
+    margin:10px;
+}
+
+.enbas {
+    height: 60px;
+    padding:5px;
+}

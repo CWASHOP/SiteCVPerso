@@ -1,0 +1,337 @@
+
+
+
+.carousel-item {
+  background-color: transparent;
+}
+
+
+.carousel-control-next, 
+.carousel-control-prev {
+  top: 3rem;
+  width: 10%;
+}
+
+.carousel-caption {
+  z-index: 10;
+  left: 0;
+  right: 0;
+  padding: 1.25rem 6rem;
+  background-color: rgba(255,255,255, 0.5);
+  color: inherit;
+}
+
+.carousel-caption .btn {
+  font-size: .5rem;
+  line-height: 1;
+}
+
+
+
+
+@media (min-width: 310px) {
+
+
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 180px;;
+  }
+
+  .carousel-caption {
+      height: 90px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .carousel-caption p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+ 
+}
+
+@media (min-width: 360px) {
+
+
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 200px;;
+  }
+
+  .carousel-caption {
+      height: 90px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .carousel-caption p {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+
+}
+
+@media (min-width: 400px) {
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 230px;;
+  }
+
+  .carousel-caption {
+      height: 90px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  .carousel-caption p {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+
+
+}
+
+@media (min-width: 700px) {
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 400px;;
+  }
+
+  .carousel-caption {
+      height: 100px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  .carousel-caption p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 500px;;
+  }
+
+  .carousel-caption {
+      height: 120px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .carousel-caption p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 600px;;
+  }
+
+  .carousel-caption {
+      height: 150px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .carousel-inner {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 900px;;
+  }
+
+  .carousel-caption {
+      height: 200px;
+      bottom: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
+
+.texte {
+  color: rgb(255, 253, 253);
+  margin-bottom:40px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.texte1{
+  color: rgb(255, 253, 253);
+  margin-bottom:40px;
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (min-height: 560px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+  }
+  
+  .container-fluid {
+      height:350px;
+  }
+}
+
+@media (min-height: 640px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+  }
+  
+  .container-fluid {
+      height:400px;
+  }
+}
+
+@media (min-height: 640px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+  }
+  
+  .container-fluid {
+      height:420px;
+  }
+}
+
+@media (min-height: 730px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+  }
+  
+  .container-fluid {
+      height:460px;
+  }
+}
+
+@media (min-height: 800px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+  }
+  
+  .container-fluid {
+      height:560px;
+  }
+}
+
+
+@media (min-height: 1100px) {
+
+  
+  
+  .container-fluid {
+      height:600px;
+  }
+}
+
+@media (min-height: 1300px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+      font-size: 15px;
+  }
+  
+  .container-fluid {
+      height:900px;
+  }
+}
+
+@media (min-height: 1900px) {
+
+  .texte {
+      color: rgb(255, 253, 253);
+      margin-bottom:40px;
+      position: absolute;
+      bottom: 0px;
+      font-size: 15px;
+  }
+  
+  .container-fluid {
+      height:1250px;
+  }
+}

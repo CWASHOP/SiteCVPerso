@@ -1,0 +1,117 @@
+$accent-color:rgb(255, 255, 255);
+
+
+
+.sort {
+    font-size: 40px;
+}
+
+
+.cardList {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.card {
+   
+    color: rgb(255, 255, 255);
+    margin:5px;
+    width:300px;
+}
+
+.image{
+    height: 200px;
+    width: 300px;
+}
+
+.card-footer {
+    border-color: rgb(36, 221, 228);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.contenu {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+}
+
+.progressbar {
+    color: rgb(0, 0, 0);
+}
+
+
+.imagecompetence{
+    width: 300px;
+    height: 220px;
+    line-height: 1.33;
+    border-radius: 35px;
+    border-color: rgb(36, 221, 228);
+    margin:20px;
+
+}
+
+.boutoncompetence{
+    background-color:rgb(58, 66, 66);
+    width: 300px;
+    height: 70px;
+    border-radius: 35px;
+    margin:20px;
+    border-color: rgb(24, 89, 230);
+    
+}
+
+.textbouton {
+    font-size: 20px;
+    font-style:bold;
+    color:rgb(24, 89, 230);
+    
+}
+
+
+
+@media (min-height: 0px) {
+    .competaille {
+        min-height: 350px;
+    }
+}
+@media (min-height: 600px) {
+    .competaille {
+        min-height: 500px;
+    }
+}
+@media (min-height: 800px) {
+    .competaille {
+        min-height: 700px;
+    }
+}
+@media (min-height: 1000px) {
+     .competaille {
+        min-height: 900px;
+    }
+
+} 
+
+.texte {
+    color: rgb(255, 253, 253);
+    text-align: center;
+    margin:10px;
+}
+
+.enbas {
+    height: 60px;
+    padding:5px;
+}
+
+
+
+.boutoncollapse {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: center;
+}
